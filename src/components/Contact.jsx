@@ -7,7 +7,7 @@ export default function Contact() {
     const onSubmit = async (event) => {
 
         event.preventDefault();
-
+        
         const hCaptcha = event.target.querySelector('textarea[name=h-captcha-response]').value;
         if (!hCaptcha) {
             event.preventDefault();
@@ -50,7 +50,7 @@ export default function Contact() {
                 render = item.dataset.render;
 
                 if (!sitekey) {
-                    item.dataset.sitekey = "d210bc27-25b3-4e8b-828b-061d068cfd89";
+                    item.dataset.sitekey = "50b2fe65-b00b-4b9e-ad62-3ba471098be2";
                 }
             });            
 
