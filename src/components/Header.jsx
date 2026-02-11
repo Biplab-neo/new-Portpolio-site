@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter"
 export default function Header() {
     return (
         <div className="w-11/12 pt-24 md:pt-32 text-center mx-auto flex flex-col items-center justify-center gap-4">
-            <img src="./assets/" alt="" className="rounded-full w-[150px] md:w-[200px] h-[150px] md:h-[200px] object-cover object-top" />
+            <img src="./assets/pengine.webp" alt="" className="rounded-full w-[150px] md:w-[200px] h-[150px] md:h-[200px] object-cover object-top" />
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
                 Hi! I'm Biplab
                 <img src="./assets/hand-icon.png" alt="" className="w-6 mb-1" />
