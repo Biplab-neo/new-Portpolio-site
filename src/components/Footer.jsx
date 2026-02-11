@@ -16,10 +16,10 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-3">
-                <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com">PrebuiltUI</a>. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com"></a>. All rights reserved.</p>
                 <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-                    <li><a target='_blank' href="https://github.com/prebuiltui">GitHub</a></li>
-                    <li><a target='_blank' href="linkedin.com/company/prebuiltui">LinkedIn</a></li>
+                    <li><a target='_blank' href="https://github.com/Biplab-neo">GitHub</a></li>
+                    <li><a target='_blank' href="https://www.linkedin.com/in/biplab-biswas-4b5a20344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
                     {/* <li><a target='_blank' href="https://x.com/prebuiltui">Twitter</a></li> */}
                 </ul>
             </div>
